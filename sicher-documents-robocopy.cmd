@@ -16,12 +16,12 @@ echo %DATESTR% > %datefile%
 
 set excludeDirs="C:\Users\torben\Documents\.git" ^
  "C:\Users\torben\Documents\Custom Office Templates"
-@REM not ^ at last line
+@REM no ^ at last line
 
 set excludeFiles="my File 1. txt" ^
  "*.ext" ^
  "my File 2.zip"
-@REM not ^ at last line
+@REM no ^ at last line
 
 set target="\\myServer\torben\sicher\doks-KOPIE"
 robocopy %source% %target% /MIR /FFT /Z /R:10 /W:5 /MT:8 /NP /NS /NC ^
