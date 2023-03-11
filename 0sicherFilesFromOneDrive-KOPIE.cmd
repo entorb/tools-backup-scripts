@@ -18,4 +18,3 @@ set target=/cygdrive/"G/sicher/files/Files"
 %rsync% -rthvz --modify-window=2 --exclude=.git --delete --delete-excluded %source% %target%
 
 del %file%
-

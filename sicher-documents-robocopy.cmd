@@ -25,7 +25,7 @@ set excludeFiles="my File 1. txt" ^
 
 set target="\\myServer\torben\sicher\doks-KOPIE"
 robocopy %source% %target% /MIR /FFT /Z /R:3 /W:0 /MT:1 /NP /NS /NC ^
- /XD %excludeDirs% /XF %excludeFiles% 
+ /XD %excludeDirs% /XF %excludeFiles%
 
 del %datefile%
 
