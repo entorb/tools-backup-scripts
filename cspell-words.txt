@@ -1,0 +1,16 @@
+# CSpell Custom Dictionary Words
+autoflake
+autoupdate
+DataFrame
+datefile
+DATESTR
+isort
+KOPIE
+Menke
+noqa
+Pandas
+raspi
+ruhv
+sicher
+Torben
+venv
